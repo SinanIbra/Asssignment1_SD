@@ -2,7 +2,7 @@ import contextlib
 import inspect
 import time
 import io
-#import pandas as pd
+
 fun_table = []
 class decorator3:
     """ decorator 3 sends the specifications of a function to output.txt and sorts the functions by the execution time"""
