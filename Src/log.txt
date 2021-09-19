@@ -1,0 +1,28 @@
+Date timestamp: 2021-09-19 17:26:28.640859  
+Traceback (most recent call last):
+  File "C:\Users\new--laptop\Downloads\innopolis\SSD\ASSI\Src\task4.py", line 40, in __call__
+    self.fun(*args, **kargs)
+  File "C:\Users\new--laptop\Downloads\innopolis\SSD\ASSI\Src\main.py", line 92, in <lambda>
+    fun_even =lambda x: true if int(x%2==0) else false
+TypeError: not all arguments converted during string formatting
+Date timestamp: 2021-09-19 17:26:28.641859Traceback (most recent call last):
+  File "C:\Users\new--laptop\Downloads\innopolis\SSD\ASSI\Src\task4.py", line 15, in wrapper
+    fun(*args, **kargs)
+  File "C:\Users\new--laptop\Downloads\innopolis\SSD\ASSI\Src\main.py", line 96, in <lambda>
+    fun_odd =lambda x: true if int(x%2==1) else false
+TypeError: not all arguments converted during string formatting
+
+Date timestamp: 2021-09-19 17:28:38.595614  
+Traceback (most recent call last):
+  File "C:\Users\new--laptop\Downloads\innopolis\SSD\ASSI\Src\task4.py", line 40, in __call__
+    self.fun(*args, **kargs)
+  File "C:\Users\new--laptop\Downloads\innopolis\SSD\ASSI\Src\main.py", line 92, in <lambda>
+    fun_even =lambda x: true if int(x%2==0) else false
+TypeError: not all arguments converted during string formatting
+Date timestamp: 2021-09-19 17:28:38.597620Traceback (most recent call last):
+  File "C:\Users\new--laptop\Downloads\innopolis\SSD\ASSI\Src\task4.py", line 15, in wrapper
+    fun(*args, **kargs)
+  File "C:\Users\new--laptop\Downloads\innopolis\SSD\ASSI\Src\main.py", line 96, in <lambda>
+    fun_odd =lambda x: true if int(x%2==1) else false
+TypeError: not all arguments converted during string formatting
+

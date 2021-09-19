@@ -1,0 +1,98 @@
+Quad_solve call 1 executed in 0.0000049 sec
+Name:	Quad_solve
+Type:	<class 'function'>
+Sign:	(a, b, c)
+Args:	positional (-10, 10, 10)
+	key=worded{}
+Doc:	
+    quadratic solver function , parameters;
+    a: coefficient before x**2 b: coefficient before x c: last coefficient
+    if delta is less than zero; we have complex roots, out of the range of real numbers.
+    
+Source:@decorator3
+	def Quad_solve(a, b, c):
+	    """
+	    quadratic solver function , parameters;
+	    a: coefficient before x**2 b: coefficient before x c: last coefficient
+	    if delta is less than zero; we have complex roots, out of the range of real numbers.
+	    """
+	    r1,r2=0,0
+	    delta = (b ** 2) - (4 * a * c)
+	    if delta < 0:
+	        r1 = (-b - cmath.sqrt(delta)) / (2 * a)
+	        r2 = (-b + cmath.sqrt(delta)) / (2 * a)
+	        return r1, r2
+	    else:
+	        return -1
+
+Output:	-1
+Pascal_Tri call 1 executed in 0.0000495 sec
+Name:	Pascal_Tri
+Type:	<class 'function'>
+Sign:	(n)
+Args:	positional (12,)
+	key=worded{}
+Doc:	
+    Pascal triangle from lab , parameters;  n: height of triangle
+    
+Source:@decorator3
+	def Pascal_Tri(n):
+	    """
+	    Pascal triangle from lab , parameters;  n: height of triangle
+	    """
+	    trow = [1]
+	    y = [0]
+	    for x in range(max(n,0)):
+	        print(trow)
+	        trow = [l + r for l, r in zip(trow + y, y + trow)]
+
+Output:	None
+Quad_solve call 1 executed in 0.0000042 sec
+Name:	Quad_solve
+Type:	<class 'function'>
+Sign:	(a, b, c)
+Args:	positional (-10, 10, 10)
+	key=worded{}
+Doc:	
+    quadratic solver function , parameters;
+    a: coefficient before x**2 b: coefficient before x c: last coefficient
+    if delta is less than zero; we have complex roots, out of the range of real numbers.
+    
+Source:@decorator3
+	def Quad_solve(a, b, c):
+	    """
+	    quadratic solver function , parameters;
+	    a: coefficient before x**2 b: coefficient before x c: last coefficient
+	    if delta is less than zero; we have complex roots, out of the range of real numbers.
+	    """
+	    r1,r2=0,0
+	    delta = (b ** 2) - (4 * a * c)
+	    if delta < 0:
+	        r1 = (-b - cmath.sqrt(delta)) / (2 * a)
+	        r2 = (-b + cmath.sqrt(delta)) / (2 * a)
+	        return r1, r2
+	    else:
+	        return -1
+
+Output:	-1
+Pascal_Tri call 1 executed in 0.0000423 sec
+Name:	Pascal_Tri
+Type:	<class 'function'>
+Sign:	(n)
+Args:	positional (12,)
+	key=worded{}
+Doc:	
+    Pascal triangle from lab , parameters;  n: height of triangle
+    
+Source:@decorator3
+	def Pascal_Tri(n):
+	    """
+	    Pascal triangle from lab , parameters;  n: height of triangle
+	    """
+	    trow = [1]
+	    y = [0]
+	    for x in range(max(n,0)):
+	        print(trow)
+	        trow = [l + r for l, r in zip(trow + y, y + trow)]
+
+Output:	None
