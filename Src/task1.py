@@ -1,7 +1,6 @@
 import time
 def decorator1(func):
-    '''Function decorator which executes the passed in function and prints its execution time, and the number of times it is called.
-       The original name of function and docstring will be preserved.'''
+    '''Function decorator which executes the passed in function and prints its execution time, and the number of times it is called.'''
 
 
     
