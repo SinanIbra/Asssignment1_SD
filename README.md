@@ -13,6 +13,7 @@ Dynamically typed language
 Interpreted language
 In this assignment, we will try to exhaust all the characteristics of python. First, start with number 4 (“Modular” language). Each task should be implemented in a separate .py file and imported to the driver program in the main.py script. Example structure :
 
+
 ├── src              <- directory for source files 
 |    ├── main.py     <- driver program file 
 |    ├── task1.py    <- task 1 implemented here 
@@ -21,6 +22,7 @@ In this assignment, we will try to exhaust all the characteristics of python. Fi
 │                               
 ├── ....             <- bla bla bla
 └── Readme.md
+
 The main.py file contains at least 2 functions containing lambda expressions within, quadratic equation solver function and pascal triangle printer function (as in lab) for testing of your implementations.
 Avoid using recursive functions
 
